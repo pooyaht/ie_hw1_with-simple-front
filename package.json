@@ -1,0 +1,22 @@
+{
+  "name": "homework_1",
+  "version": "1.0.0",
+  "description": "IE_HW1",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Pooya Hatami",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "point-in-polygon": "^1.0.1",
+    "pug": "^2.0.4",
+    "underscore": "^1.9.1"
+  }
+}
